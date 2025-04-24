@@ -10,3 +10,6 @@ class BasicRedditClient(LoggingMixin):
 
 	def run(self):
 		self.logger.info("Running Reddit Bot.")
+
+	def stop(self):
+		pass

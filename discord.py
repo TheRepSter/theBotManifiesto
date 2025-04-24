@@ -10,3 +10,6 @@ class BasicDiscordClient(LoggingMixin):
 	def run(self):
 		self.bot.run(self.__token)
 		self.logger.info("Running Discord bot.")
+
+	def stop(self):
+		pass
